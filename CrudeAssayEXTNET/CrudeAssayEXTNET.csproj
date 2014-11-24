@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{741069B9-218E-4FE6-B614-E4393171588E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CrudeAssayEXTNET</RootNamespace>
+    <AssemblyName>CrudeAssayEXTNET</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ext.Net">
+      <HintPath>..\packages\Ext.NET.2.5.2\lib\net40\Ext.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Ext.Net.Utilities">
+      <HintPath>..\packages\Ext.NET.Utilities.2.4.0\lib\Ext.Net.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Transformer.NET">
+      <HintPath>..\packages\Transformer.NET.2.1.1\lib\net35\Transformer.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivatorEx">
+      <HintPath>..\packages\WebActivatorEx.2.0.3\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.aspx" />
+    <Content Include="App_Readme\Ext.NET.Utilities\BREAKING_CHANGES.txt" />
+    <Content Include="App_Readme\Ext.NET.Utilities\LICENSE.txt" />
+    <Content Include="App_Readme\Ext.NET.Utilities\README.txt" />
+    <Content Include="App_Readme\Ext.NET\BREAKING_CHANGES.txt" />
+    <Content Include="App_Readme\Ext.NET\CHANGELOG.txt" />
+    <Content Include="App_Readme\Ext.NET\LICENSE.txt" />
+    <Content Include="App_Readme\Ext.NET\README.txt" />
+    <Content Include="App_Readme\Transformer.NET\LICENSE.txt" />
+    <Content Include="App_Readme\Transformer.NET\README.txt" />
+    <Content Include="bin\CrudeAssayEXTNET.dll" />
+    <Content Include="bin\CrudeAssayEXTNET.pdb" />
+    <Content Include="bin\CrudeAssayLibrary.dll" />
+    <Content Include="bin\CrudeAssayLibrary.pdb" />
+    <Content Include="bin\CrudeAssayLibrary.xml" />
+    <Content Include="bin\Ext.Net.dll" />
+    <Content Include="bin\Ext.Net.Utilities.dll" />
+    <Content Include="bin\Ext.Net.Utilities.xml" />
+    <Content Include="bin\Ext.Net.xml" />
+    <Content Include="bin\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Newtonsoft.Json.xml" />
+    <Content Include="bin\Transformer.NET.dll" />
+    <Content Include="bin\Transformer.NET.xml" />
+    <Content Include="bin\WebActivatorEx.dll" />
+    <Content Include="Dashboard\Default.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Ext.NET.Default.aspx" />
+    <Content Include="Pages\Grafik\GrafikCrudeAssay\Default.aspx" />
+    <Content Include="Pages\Input\InputCriticalParameter\Default.aspx" />
+    <Content Include="obj\Debug\CrudeAssayEXTNET.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\CrudeAssayEXTNET.dll" />
+    <Content Include="obj\Debug\CrudeAssayEXTNET.pdb" />
+    <Content Include="Pages\MasterData\MasterDataCrude\Default.aspx" />
+    <Content Include="Pages\MasterData\MasterDataLaboratory\Default.aspx" />
+    <Content Include="Pages\MasterData\MasterDataNegara\Default.aspx" />
+    <Content Include="resources\css\examples.css" />
+    <Content Include="resources\css\main.css" />
+    <Content Include="resources\examples.js" />
+    <Content Include="resources\fonts\LICENSE_TITILLIUMTEXT.txt" />
+    <Content Include="resources\icons\application.png" />
+    <Content Include="resources\icons\application_double.png" />
+    <Content Include="resources\icons\application_error.png" />
+    <Content Include="resources\icons\application_form.png" />
+    <Content Include="resources\icons\application_go.png" />
+    <Content Include="resources\icons\application_side_tree.png" />
+    <Content Include="resources\icons\application_view_columns.png" />
+    <Content Include="resources\icons\application_view_detail.png" />
+    <Content Include="resources\icons\application_view_tile.png" />
+    <Content Include="resources\icons\arrow_refresh.png" />
+    <Content Include="resources\icons\asterisk_orange.png" />
+    <Content Include="resources\icons\brick.png" />
+    <Content Include="resources\icons\button.png" />
+    <Content Include="resources\icons\buttons.png" />
+    <Content Include="resources\icons\calendar.png" />
+    <Content Include="resources\icons\clock.png" />
+    <Content Include="resources\icons\cog.png" />
+    <Content Include="resources\icons\color_swatch.png" />
+    <Content Include="resources\icons\comments.png" />
+    <Content Include="resources\icons\comment_add.png" />
+    <Content Include="resources\icons\compress.png" />
+    <Content Include="resources\icons\css.png" />
+    <Content Include="resources\icons\cup_black.png" />
+    <Content Include="resources\icons\desktop.png" />
+    <Content Include="resources\icons\editor.png" />
+    <Content Include="resources\icons\emoticon_smile.png" />
+    <Content Include="resources\icons\hourglass.png" />
+    <Content Include="resources\icons\information.png" />
+    <Content Include="resources\icons\keyboard.png" />
+    <Content Include="resources\icons\layout.png" />
+    <Content Include="resources\icons\lightning.png" />
+    <Content Include="resources\icons\link.png" />
+    <Content Include="resources\icons\page_white_code.png" />
+    <Content Include="resources\icons\page_white_csharp.png" />
+    <Content Include="resources\icons\pencil.png" />
+    <Content Include="resources\icons\plugin.png" />
+    <Content Include="resources\icons\script.png" />
+    <Content Include="resources\icons\script_code_red.png" />
+    <Content Include="resources\icons\shape_square_select.png" />
+    <Content Include="resources\icons\tab.png" />
+    <Content Include="resources\icons\table_multiple.png" />
+    <Content Include="resources\icons\tabpanel.png" />
+    <Content Include="resources\icons\textfield_rename.png" />
+    <Content Include="resources\icons\toolbar.png" />
+    <Content Include="resources\icons\viewport.png" />
+    <Content Include="resources\icons\wand.png" />
+    <Content Include="resources\icons\wrench.png" />
+    <Content Include="resources\images\404.png" />
+    <Content Include="resources\images\bg.gif" />
+    <Content Include="resources\images\bgnoise.png" />
+    <Content Include="resources\images\black10.png" />
+    <Content Include="resources\images\button-bg-30tall.png" />
+    <Content Include="resources\images\collapse-all.gif" />
+    <Content Include="resources\images\commentlogo.png" />
+    <Content Include="resources\images\coolite.png" />
+    <Content Include="resources\images\ee-ad-bg.png" />
+    <Content Include="resources\images\ee-ad-content.png" />
+    <Content Include="resources\images\ee-ad-store-bg.png" />
+    <Content Include="resources\images\expand-all.gif" />
+    <Content Include="resources\images\ext.net-logo.png" />
+    <Content Include="resources\images\ext_net_badge.gif" />
+    <Content Include="resources\images\ext_net_logo_small.gif" />
+    <Content Include="resources\images\grid-badge-bg.png" />
+    <Content Include="resources\images\grid.png" />
+    <Content Include="resources\images\group-expand-sprite.gif" />
+    <Content Include="resources\images\icon-briefcase.png" />
+    <Content Include="resources\images\item-hd4.gif" />
+    <Content Include="resources\images\layout-browser-hd-bg.gif" />
+    <Content Include="resources\images\loading.gif" />
+    <Content Include="resources\images\loading32.gif" />
+    <Content Include="resources\images\logo.png" />
+    <Content Include="resources\images\new.gif" />
+    <Content Include="resources\images\newgray.gif" />
+    <Content Include="resources\images\noimage.gif" />
+    <Content Include="resources\images\noimage.png" />
+    <Content Include="resources\images\sample-over.gif" />
+    <Content Include="resources\images\title-background.png" />
+    <Content Include="resources\images\titlebar-badge-bg.png" />
+    <Content Include="resources\images\titlebar-bg.jpg" />
+    <Content Include="resources\images\titlebar-logo-bg.jpg" />
+    <Content Include="resources\images\welcome-bullet.png" />
+    <Content Include="resources\images\welcome-screens.png" />
+    <Content Include="resources\js\main.js" />
+    <Content Include="Pages\UploadDokumen\UploadDokumenCrudeAssay\Default.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dashboard\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Grafik\GrafikCrudeAssay\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Grafik\GrafikCrudeAssay\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Input\InputCriticalParameter\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Input\InputCriticalParameter\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MasterData\MasterDataCrude\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\MasterData\MasterDataCrude\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MasterData\MasterDataLaboratory\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\MasterData\MasterDataLaboratory\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MasterData\MasterDataNegara\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\MasterData\MasterDataNegara\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pages\UploadDokumen\UploadDokumenCrudeAssay\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\UploadDokumen\UploadDokumenCrudeAssay\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Readme\Ext.NET\Sample.Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrudeAssayLibrary\CrudeAssayLibrary.vbproj">
+      <Project>{4B6AC100-CC15-4EE7-9DC0-04FB29D25EB0}</Project>
+      <Name>CrudeAssayLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\build.force" />
+    <None Include="obj\Debug\CrudeAssayEXTNET.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="resources\fonts\TitilliumText22L001-webfont.eot" />
+    <None Include="resources\fonts\TitilliumText22L001-webfont.svg" />
+    <None Include="resources\fonts\TitilliumText22L001-webfont.ttf" />
+    <None Include="resources\fonts\TitilliumText22L001-webfont.woff" />
+    <None Include="resources\fonts\TitilliumText22L002-webfont.eot" />
+    <None Include="resources\fonts\TitilliumText22L002-webfont.svg" />
+    <None Include="resources\fonts\TitilliumText22L002-webfont.ttf" />
+    <None Include="resources\fonts\TitilliumText22L002-webfont.woff" />
+    <None Include="resources\fonts\TitilliumText22L003-webfont.eot" />
+    <None Include="resources\fonts\TitilliumText22L003-webfont.svg" />
+    <None Include="resources\fonts\TitilliumText22L003-webfont.ttf" />
+    <None Include="resources\fonts\TitilliumText22L003-webfont.woff" />
+    <None Include="resources\fonts\TitilliumText22L004-webfont.eot" />
+    <None Include="resources\fonts\TitilliumText22L004-webfont.svg" />
+    <None Include="resources\fonts\TitilliumText22L004-webfont.ttf" />
+    <None Include="resources\fonts\TitilliumText22L004-webfont.woff" />
+    <None Include="resources\fonts\TitilliumText22L005-webfont.eot" />
+    <None Include="resources\fonts\TitilliumText22L005-webfont.svg" />
+    <None Include="resources\fonts\TitilliumText22L005-webfont.ttf" />
+    <None Include="resources\fonts\TitilliumText22L005-webfont.woff" />
+    <None Include="resources\fonts\TitilliumText22L006-webfont.eot" />
+    <None Include="resources\fonts\TitilliumText22L006-webfont.svg" />
+    <None Include="resources\fonts\TitilliumText22L006-webfont.ttf" />
+    <None Include="resources\fonts\TitilliumText22L006-webfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56167</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

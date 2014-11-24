@@ -1,0 +1,12 @@
+c:\users\user\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayEXTNET\bin\CrudeAssayEXTNET.dll
+c:\users\user\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayEXTNET\bin\CrudeAssayEXTNET.pdb
+c:\users\user\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayEXTNET\bin\Ext.Net.xml
+c:\users\user\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayEXTNET\bin\Ext.Net.Utilities.xml
+c:\users\user\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayEXTNET\bin\Newtonsoft.Json.xml
+c:\users\user\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayEXTNET\bin\Transformer.NET.xml
+c:\users\user\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayEXTNET\obj\Debug\CrudeAssayEXTNET.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayEXTNET\obj\Debug\CrudeAssayEXTNET.dll
+c:\users\user\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayEXTNET\obj\Debug\CrudeAssayEXTNET.pdb
+C:\Users\USER\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayEXTNET\bin\CrudeAssayLibrary.dll
+C:\Users\USER\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayEXTNET\bin\CrudeAssayLibrary.pdb
+C:\Users\USER\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayEXTNET\bin\CrudeAssayLibrary.xml

@@ -1,0 +1,8 @@
+C:\Users\USER\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayLibrary\bin\Debug\CrudeAssayLibrary.dll
+C:\Users\USER\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayLibrary\bin\Debug\CrudeAssayLibrary.pdb
+C:\Users\USER\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayLibrary\bin\Debug\CrudeAssayLibrary.xml
+C:\Users\USER\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayLibrary\obj\Debug\CrudeAssayLibrary.Resources.resources
+C:\Users\USER\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayLibrary\obj\Debug\CrudeAssayLibrary.vbproj.GenerateResource.Cache
+C:\Users\USER\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayLibrary\obj\Debug\CrudeAssayLibrary.dll
+C:\Users\USER\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayLibrary\obj\Debug\CrudeAssayLibrary.xml
+C:\Users\USER\documents\visual studio 2010\Projects\CrudeAssayEXTNET\CrudeAssayLibrary\obj\Debug\CrudeAssayLibrary.pdb
